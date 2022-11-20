@@ -1,0 +1,26 @@
+{
+    "name": "smallang",
+    "version": "1.0.0",
+    "description": "Small lang is a small programming lang",
+    "main": "index.js",
+    "scripts": {
+        "gen-parser": "nearleyc small.ne -o small.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/airportyh/smallang.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/airportyh/smallang/issues"
+    },
+    "homepage": "https://github.com/airportyh/smallang#readme",
+    "dependencies": {
+        "moo": "^0.5.1",
+        "mz": "^2.70",
+        "nearley": "^2.19.5"
+    }
+
+}
